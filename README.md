@@ -21,7 +21,7 @@
 ### 1. 🧑‍💻 Filbert Christian Winch
 
 <div align="center">
-  <img src="./assets/filbert.jpeg" width="120" style="border-radius:50%;" />
+  <img src="./docs/assets/filbert.jpeg" width="120" style="border-radius:50%;" />
   <br/><br/>
   <a href="https://github.com/winchfilbert"><img src="https://img.shields.io/badge/GitHub-filbertwinch-181717?style=flat&logo=github" /></a>
   <a href="https://www.linkedin.com/in/filbert-christian-winch/"><img src="https://img.shields.io/badge/LinkedIn-Filbert%20Christian%20Winch-0A66C2?style=flat&logo=linkedin" /></a>
@@ -49,11 +49,11 @@ Berperan sebagai *Full-Stack Software Engineer* untuk platform *marketplace* ala
 ### 2. 🧑‍💻 Abdul Aziz Zaki Hidayat
 
 <div align="center">
-  <img src="./assets/zaki.jpeg" width="120" style="border-radius:50%;" />
+  <img src="./docs/assets/zaki.jpeg" width="120" style="border-radius:50%;" />
   <br/><br/>
   <a href="https://github.com/ZakiHidayat"><img src="https://img.shields.io/badge/GitHub-zakihidayat-181717?style=flat&logo=github" /></a>
   <a href="https://www.linkedin.com/in/zakihidayat/"><img src="https://img.shields.io/badge/LinkedIn-Abdul%20Aziz%20Zaki%20Hidayat-0A66C2?style=flat&logo=linkedin" /></a>
-  <a href="./assets/AbdulAzizZakiHidayat_Portfolio.pdf"><img src="https://img.shields.io/badge/Portfolio%20PDF-Download-red?style=flat&logo=adobeacrobatreader" /></a>
+  <a href="./docs/assets/AbdulAzizZakiHidayat_Portfolio.pdf"><img src="https://img.shields.io/badge/Portfolio%20PDF-Download-red?style=flat&logo=adobeacrobatreader" /></a>
 </div>
 
 <br/>
@@ -78,12 +78,12 @@ Berperan sebagai *Full-Stack Software Engineer* untuk platform *marketplace* ala
 ### 3. 👩‍💻 Nadine Syifa Swasana
 
 <div align="center">
-  <img src="./assets/nadine.jpeg" width="120" style="border-radius:50%;" />
+  <img src="./docs/assets/nadine.jpeg" width="120" style="border-radius:50%;" />
   <br/><br/>
   <a href="https://github.com/nadineswasana"><img src="https://img.shields.io/badge/GitHub-nadineswasana-181717?style=flat&logo=github" /></a>
   <a href="https://www.linkedin.com/in/nadineswasana/"><img src="https://img.shields.io/badge/LinkedIn-Nadine%20Syifa%20Swasana-0A66C2?style=flat&logo=linkedin" /></a>
   <!-- <a href="https://behance.net/nadineswasana"><img src="https://img.shields.io/badge/Behance-Nadine%20Swasana-1769FF?style=flat&logo=behance" /></a> -->
-  <a href="./assets/NadineSwasana_Portfolio.pdf"><img src="https://img.shields.io/badge/Portfolio%20PDF-Download-red?style=flat&logo=adobeacrobatreader" /></a>
+  <a href="./docs/assets/NadineSwasana_Portfolio.pdf"><img src="https://img.shields.io/badge/Portfolio%20PDF-Download-red?style=flat&logo=adobeacrobatreader" /></a>
 </div>
 
 <br/>
