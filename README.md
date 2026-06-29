@@ -32,17 +32,18 @@
 
 | Info | Detail |
 |------|--------|
-| **Role** | *(isi rolenya)* |
-| **Skills** | *(isi tech stack)* |
-| **Experience** | *(isi pengalaman singkat)* |
+| **Role** | Full-Stack Engineer / ML Engineer/ DevOps Engineer|
+| **Skills** |**Languages**: Go, TypeScript, Java, Python, C++ / **Frameworks**: React.js, tanstack, svelte,  Nest.js, FastAPI, Spring Boot / **Infrastructure & Data**: Docker, gRPC, PostgreSQL, Redis, VPS Deployment **IoT & AI**: Sensor Fusion (pH, Temperature), Real-Time Monitoring, Predictive Modeling |
+| **Experience** |Full-Stack Software Engineer at MidHub, Full-Time Information Systems Laboratory Assistant, BINUS University|
 
 #### 🚀 Highlighted Projects
-- 🏆 **[Project Lomba / Hackathon]** — *(nama event, deskripsi singkat, hasil/juara)*
-
-- 💼 **[Project Personal / Open Source]** — *(deskripsi singkat + link)*
-
-- 🎓 **[Project Akademik / Capstone]** — *(deskripsi singkat + link)*
-
+- 🏆 **[Project Lomba / Hackathon] BioSerDe**  — **Smart Portable Biogas Digester**
+Sebuah platform energi bersih berbasis IoT dan AI yang mengubah limbah organik menjadi biogas. Merancang arsitektur *pipeline* penyerapan data *real-time* untuk telemetri tertanam (sensor pH dan suhu), serta mengintegrasikan model AI prediktif untuk memantau, menganalisis, dan mengoptimalkan efisiensi produksi metana secara dinamis.
+- 💼 **[Enterprise Project] MidHub.id  — Heavy Equipment Marketplace**
+Berperan sebagai *Full-Stack Software Engineer* untuk platform *marketplace* alat berat terkemuka di Indonesia (https://midhub.id/). Merancang dan mengoptimalkan arsitektur *backend* inti dengan skalabilitas tinggi, memastikan pengambilan data dengan latensi rendah dan *pipeline* transaksi yang andal untuk operasi skala *enterprise*.
+- 🎓 **[Project Akademik / Capstone]** — 
+**BekenSpot**: Mengembangkan platform reservasi ruangan dan ruang kerja (*workspace*) *all-in-one*, serta membangun mesin ketersediaan yang dioptimalkan untuk menangani permintaan pemesanan secara bersamaan tanpa *race condition* di BINUS @Bekasi. 
+**Minat-Apps**: Mengembangkan software tes assessment psikometrik dengan *throughput* tinggi yang memproses masukan pengguna untuk memodelkan sifat kepribadian dan menghasilkan rekomendasi jalur karier otomatis berbasis data, yang dikhususkan untuk siswa SMA tingkat akhir.
 ---
 
 ### 2. 🧑‍💻 Abdul Aziz Zaki Hidayat
