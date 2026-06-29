@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KORPUS — Orkestrator Keanggotaan Digital & Hilirisasi Komoditas</title>
+  <meta name="description" content="KORPUS: Platform digital end-to-end yang memberdayakan 83.000 Koperasi Desa, mengaktivasi jutaan petani grassroot melalui inklusi digital, ekosistem transaksi terpusat, dan tracker komoditas cerdas." />
+  <meta name="keywords" content="KORPUS, SIMKopDes, Hackathon, Koperasi Desa, Merah Putih, hilirisasi, komoditas, digital, 2026" />
+  <meta name="author" content="Tim KORPUS — Hackathon SIMKopDes 2026" />
+  <meta property="og:title" content="KORPUS — Hackathon SIMKopDes 2026" />
+  <meta property="og:description" content="Orkestrator Keanggotaan Digital & Hilirisasi Komoditas untuk Koperasi Desa" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="nav" id="nav">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <div class="logo-icon">🌾</div>
+        KORPUS
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#masalah">Masalah</a>
+        <a href="#solusi">Solusi</a>
+        <a href="#arsitektur">Arsitektur</a>
+        <a href="#desain">Desain</a>
+        <a href="#tim">Tim</a>
+        <a href="#dampak">Dampak</a>
+        <a href="https://github.com/ZakiHidayat/Hackathon_Kemenkop2026" target="_blank" class="nav-cta">GitHub →</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Hackathon SIMKopDes 2026 · Pilar 2
+        </div>
+        <h1>
+          Membangkitkan Ekonomi<br/>
+          <span class="gradient-text">83.000 Desa</span><br/>
+          di Indonesia
+        </h1>
+        <p>
+          KORPUS — Orkestrator Keanggotaan Digital & Hilirisasi Komoditas. 
+          Platform end-to-end yang mengonversi Koperasi Desa menjadi mesin penggerak 
+          ketahanan pangan dan kedaulatan ekonomi nasional.
+        </p>
+        <div class="hero-actions">
+          <a href="#solusi" class="btn-primary">Jelajahi Solusi ↓</a>
+          <a href="#desain" class="btn-outline">Lihat Design System</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <div class="icon-circle">🌾</div>
+            <div>
+              <h3>KORPUS Dashboard</h3>
+              <p>Ringkasan kesiapan implementasi</p>
+            </div>
+          </div>
+          <div class="stat-grid">
+            <div class="stat-item">
+              <div class="stat-number" data-count="83000">0</div>
+              <div class="stat-label">Kopdes Target</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">3</div>
+              <div class="stat-label">Pilar Teknologi</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">30%</div>
+              <div class="stat-label">Target Populasi</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">3G</div>
+              <div class="stat-label">Network Ready</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-float">
+          <span>✅</span> NIK + OTP WA Verified
+        </div>
+        <div class="hero-float">
+          <span>🔒</span> SHU Terenkripsi
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEM ============ -->
+  <section id="masalah">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Akar Masalah</div>
+        <h2 class="section-title">Mengapa <span>270 Juta Jiwa</span> Belum Terjangkau?</h2>
+        <p class="section-subtitle">
+          Dari 83.000 Kopdes berbadan hukum, hanya ~2 juta jiwa yang berpartisipasi aktif. 
+          Akar masalahnya bersifat struktural dan membutuhkan intervensi teknologi yang membumi.
+        </p>
+      </div>
+
+      <div class="problem-grid">
+        <div class="problem-card reveal">
+          <div class="card-icon">🚫</div>
+          <h3>Absennya Infrastruktur Onboarding Digital</h3>
+          <p>
+            Pendaftaran masih klerikal dan membutuhkan literasi tinggi. Masyarakat grassroot 
+            tereksklusi dari keanggotaan karena proses yang rumit dan birokratis.
+          </p>
+        </div>
+        <div class="problem-card reveal">
+          <div class="card-icon">🔒</div>
+          <h3>Defisit Kepercayaan Bagi-Hasil</h3>
+          <p>
+            Distribusi SHU (Sisa Hasil Usaha) berjalan manual, buram, dan rentan manipulasi. 
+            Petani tidak percaya pada sistem yang tidak bisa mereka audit sendiri.
+          </p>
+        </div>
+        <div class="problem-card reveal">
+          <div class="card-icon">🔗</div>
+          <h3>Putusnya Rantai Hilirisasi</h3>
+          <p>
+            Tidak ada penghubung digital antara keringat petani di hulu dengan ekosistem 
+            komoditas bernilai tambah di hilir. Nilai ekonomi bocor di setiap titik.
+          </p>
+        </div>
+      </div>
+
+      <div class="stat-banner reveal">
+        <div class="stat-banner-item">
+          <div class="big-number">83.000</div>
+          <p>Kopdes Berbadan Hukum</p>
+        </div>
+        <div class="stat-banner-item">
+          <div class="big-number">270 Juta</div>
+          <p>Penduduk Desa</p>
+        </div>
+        <div class="stat-banner-item">
+          <div class="big-number">~2 Juta</div>
+          <p>Anggota Aktif Saat Ini</p>
+        </div>
+        <div class="stat-banner-item">
+          <div class="big-number">&lt;1%</div>
+          <p>Tingkat Partisipasi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOLUTION (3 PILLARS) ============ -->
+  <section id="solusi">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Tiga Pilar Teknologi</div>
+        <h2 class="section-title">Solusi <span>KORPUS</span></h2>
+        <p class="section-subtitle">
+          Platform digital end-to-end yang dirancang user-centric untuk membangkitkan 
+          kekuatan ekonomi di 83.000 desa secara berkelanjutan.
+        </p>
+      </div>
+
+      <div class="pillar-grid">
+        <!-- Pilar 1 -->
+        <div class="pillar-card reveal">
+          <div class="pillar-number">Pilar 01</div>
+          <div class="card-icon">📱</div>
+          <h3>Inklusi Digital Tanpa Hambatan</h3>
+          <p class="pillar-sub">Frictionless Onboarding</p>
+          <p>
+            Keanggotaan teraktivasi instan melalui integrasi NIK Dukcapil dan OTP WhatsApp — 
+            tanpa email, tanpa proses klerikal yang rumit.
+          </p>
+          <ul class="pillar-features">
+            <li>Verifikasi NIK Dukcapil real-time</li>
+            <li>Autentikasi via WhatsApp OTP</li>
+            <li>Identitas Koperasi Digital (QR Code)</li>
+            <li>UI visual-first, ramah literasi rendah</li>
+          </ul>
+        </div>
+
+        <!-- Pilar 2 -->
+        <div class="pillar-card reveal">
+          <div class="pillar-number">Pilar 02</div>
+          <div class="card-icon">💳</div>
+          <h3>Ekosistem Transaksi Terpusat</h3>
+          <p class="pillar-sub">Celengan & Point of Sales</p>
+          <p>
+            Mobile wallet intuitif untuk transaksi dan menabung. POS modern untuk 
+            digitalisasi inventaris dan pelaporan otomatis.
+          </p>
+          <ul class="pillar-features">
+            <li>Wallet (Celengan) untuk simpan & transaksi</li>
+            <li>POS System untuk pengurus Kopdes</li>
+            <li>Real-time transaction ledger</li>
+            <li>Pelaporan keuangan otomatis</li>
+          </ul>
+        </div>
+
+        <!-- Pilar 3 -->
+        <div class="pillar-card reveal">
+          <div class="pillar-number">Pilar 03</div>
+          <div class="card-icon">📊</div>
+          <h3>Tracker Komoditas & Smart Contract</h3>
+          <p class="pillar-sub">Hilirisasi & SHU Terenkripsi</p>
+          <p>
+            Pantau metamorfosis panen menjadi produk hilir bernilai tinggi. SHU dikalkulasi 
+            otomatis dan dikunci secara kriptografis saat RAT.
+          </p>
+          <ul class="pillar-features">
+            <li>Pipeline komoditas: Panen → Olah → Jual</li>
+            <li>SHU auto-calculation engine</li>
+            <li>Hash-lock kriptografis pasca-RAT</li>
+            <li>Optimal di jaringan 3G pelosok</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ARCHITECTURE ============ -->
+  <section id="arsitektur">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Kesiapan Teknis</div>
+        <h2 class="section-title">Arsitektur <span>Sistem</span></h2>
+        <p class="section-subtitle">
+          Dirancang modular, scalable, dan optimized untuk jaringan 3G — 
+          memastikan operabilitas di infrastruktur pelosok Indonesia.
+        </p>
+      </div>
+
+      <div class="arch-wrapper reveal">
+        <div class="arch-diagram">
+          <div class="arch-layers">
+            <div class="arch-layer">
+              <div class="arch-layer-title">🟢 Frontend Layer — User Interface</div>
+              <div class="arch-items">
+                <div class="arch-item">React.js (Vite)</div>
+                <div class="arch-item">TanStack Router</div>
+                <div class="arch-item">PWA / Service Worker</div>
+                <div class="arch-item">3G-Optimized Assets</div>
+              </div>
+            </div>
+            <div class="arch-connector">↕</div>
+            <div class="arch-layer">
+              <div class="arch-layer-title">🔵 API Gateway — Shared Services</div>
+              <div class="arch-items">
+                <div class="arch-item">Auth (NIK + OTP)</div>
+                <div class="arch-item">Wallet Engine</div>
+                <div class="arch-item">QR Identity</div>
+                <div class="arch-item">Notification</div>
+                <div class="arch-item">SHU Engine</div>
+              </div>
+            </div>
+            <div class="arch-connector">↕</div>
+            <div class="arch-layer">
+              <div class="arch-layer-title">⚙️ Backend Layer — Business Logic</div>
+              <div class="arch-items">
+                <div class="arch-item">Go (Gin) / FastAPI</div>
+                <div class="arch-item">REST JSON API</div>
+                <div class="arch-item">State Machine (Commodity)</div>
+                <div class="arch-item">Crypto Hash Lock</div>
+              </div>
+            </div>
+            <div class="arch-connector">↕</div>
+            <div class="arch-layer">
+              <div class="arch-layer-title">🗄️ Infrastructure — Data & Deployment</div>
+              <div class="arch-items">
+                <div class="arch-item">PostgreSQL (ACID)</div>
+                <div class="arch-item">Redis (Session/OTP)</div>
+                <div class="arch-item">Docker</div>
+                <div class="arch-item">VPS Deployment</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <h3 style="font-size: 1.1rem; font-weight: 700; margin-top: 2.5rem; margin-bottom: 1rem;">Tech Stack</h3>
+        <div class="tech-stack">
+          <div class="tech-pill">⚛️ React.js</div>
+          <div class="tech-pill">⚡ Vite</div>
+          <div class="tech-pill">🐹 Go (Gin)</div>
+          <div class="tech-pill">🐍 FastAPI</div>
+          <div class="tech-pill">🐘 PostgreSQL</div>
+          <div class="tech-pill">🔴 Redis</div>
+          <div class="tech-pill">🐳 Docker</div>
+          <div class="tech-pill">📱 PWA</div>
+          <div class="tech-pill">🔐 Crypto Hash</div>
+          <div class="tech-pill">💬 WhatsApp OTP</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DESIGN SYSTEM (Color Research Showcase) ============ -->
+  <section id="desain" class="design-section">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Pertimbangan Desain</div>
+        <h2 class="section-title">Design System <span>KORPUS</span></h2>
+        <p class="section-subtitle">
+          Palet warna diekstrak langsung dari platform SIMKopDes (simkopdes.go.id) — 
+          dipilih secara deliberatif setelah riset perbandingan mendalam antara branding 
+          SIMKopDes dan KopdesMerahPutih.
+        </p>
+      </div>
+
+      <div class="color-grid reveal">
+        <div class="color-card">
+          <div class="color-swatch" style="background: #065366;">
+            <span>#065366</span>
+          </div>
+          <div class="color-info">
+            <h4>Primary Teal</h4>
+            <p>Warna dominan SIMKopDes — trust, stability</p>
+            <div class="contrast-badge">✓ WCAG AAA · 8.4:1</div>
+          </div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background: #044352;">
+            <span>#044352</span>
+          </div>
+          <div class="color-info">
+            <h4>Primary Dark</h4>
+            <p>Hover state, emphasis, dark backgrounds</p>
+          </div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background: #D47800;">
+            <span>#D47800</span>
+          </div>
+          <div class="color-info">
+            <h4>Accent Amber</h4>
+            <p>CTA, highlight, call-to-action elements</p>
+          </div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background: #CC3367;">
+            <span>#CC3367</span>
+          </div>
+          <div class="color-info">
+            <h4>Accent Rose</h4>
+            <p>Secondary accent, alert indicators</p>
+          </div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background: #9CAF50;">
+            <span>#9CAF50</span>
+          </div>
+          <div class="color-info">
+            <h4>Agricultural Green</h4>
+            <p>Success, growth, komoditas indicators</p>
+          </div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background: #25D366;">
+            <span>#25D366</span>
+          </div>
+          <div class="color-info">
+            <h4>WhatsApp Green</h4>
+            <p>OTP flow, WhatsApp integration branding</p>
+          </div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background: linear-gradient(135deg, #ED1C24 50%, #065366 50%);">
+            <span>🇮🇩 Merah Putih</span>
+          </div>
+          <div class="color-info">
+            <h4>Patriotic Accent</h4>
+            <p>Subtle national identity — bukan primary UI</p>
+          </div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background: #4A6B72;">
+            <span>#4A6B72</span>
+          </div>
+          <div class="color-info">
+            <h4>Muted Teal</h4>
+            <p>Supporting text, secondary elements</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Design Rationale -->
+      <div class="design-rationale reveal">
+        <h3>🔬 Mengapa Kami Memilih Palet SIMKopDes</h3>
+        <div class="rationale-grid">
+          <div class="rationale-item">
+            <div class="ri-icon">🎯</div>
+            <div>
+              <h4>Alignment Langsung</h4>
+              <p>
+                Warna diekstrak dari simkopdes.go.id — platform target hackathon ini. 
+                Menunjukkan bahwa kami membangun di dalam ekosistem, bukan di luar.
+              </p>
+            </div>
+          </div>
+          <div class="rationale-item">
+            <div class="ri-icon">♿</div>
+            <div>
+              <h4>Aksesibilitas AAA</h4>
+              <p>
+                Primary teal (#065366) pada putih menghasilkan contrast ratio 8.4:1 — 
+                melampaui standar WCAG AAA. Kritis untuk pengguna grassroot.
+              </p>
+            </div>
+          </div>
+          <div class="rationale-item">
+            <div class="ri-icon">🌙</div>
+            <div>
+              <h4>Dark Mode Native</h4>
+              <p>
+                Teal secara natural mendukung dark theme — berbeda dengan merah (#ED1C24) 
+                yang hanya mencapai 4.0:1 dan sulit di-dark-mode.
+              </p>
+            </div>
+          </div>
+          <div class="rationale-item">
+            <div class="ri-icon">🎨</div>
+            <div>
+              <h4>Versatilitas UI</h4>
+              <p>
+                Teal bekerja untuk navigasi, kartu, tombol, gradient — sementara merah 
+                terlalu agresif sebagai warna primary UI.
+              </p>
+            </div>
+          </div>
+          <div class="rationale-item">
+            <div class="ri-icon">📱</div>
+            <div>
+              <h4>3G-First Design</h4>
+              <p>
+                Palet gelap mengurangi konsumsi baterai pada layar OLED device murah 
+                yang umum di pedesaan Indonesia.
+              </p>
+            </div>
+          </div>
+          <div class="rationale-item">
+            <div class="ri-icon">🇮🇩</div>
+            <div>
+              <h4>Merah Putih Tetap Hadir</h4>
+              <p>
+                Identitas nasional tidak dihilangkan — digunakan sebagai aksen subtle 
+                (badge, stripe) tanpa mendominasi UI.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Font section -->
+      <div class="design-rationale reveal" style="margin-top: 1.5rem;">
+        <h3>🔤 Tipografi: Plus Jakarta Sans</h3>
+        <div class="rationale-grid">
+          <div class="rationale-item">
+            <div class="ri-icon">Aa</div>
+            <div>
+              <h4>Font yang Sama dengan SIMKopDes</h4>
+              <p>
+                Plus Jakarta Sans — font yang digunakan simkopdes.go.id. Geometric sans-serif 
+                buatan Indonesia yang modern, readable di layar kecil, dan mendukung bobot 200–800.
+              </p>
+            </div>
+          </div>
+          <div class="rationale-item">
+            <div class="ri-icon">📐</div>
+            <div>
+              <h4>Optimized untuk Mobile</h4>
+              <p>
+                X-height besar dan letterform terbuka — ideal untuk pengguna dengan 
+                device murah dan layar kecil di daerah 3G.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEAM ============ -->
+  <section id="tim">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Tim Pengembang</div>
+        <h2 class="section-title">Siapa di Balik <span>KORPUS</span>?</h2>
+        <p class="section-subtitle">
+          Tiga engineer dan designer dari BINUS University dengan pengalaman enterprise-level 
+          dan track record kompetisi nasional & internasional.
+        </p>
+      </div>
+
+      <div class="team-grid">
+        <!-- Filbert -->
+        <div class="team-card reveal">
+          <img src="../assets/filbert.jpeg" alt="Filbert Christian Winch" class="team-avatar" 
+               onerror="this.style.background='var(--primary)'; this.style.display='flex'; this.alt='FC';" />
+          <h3>Filbert Christian Winch</h3>
+          <div class="team-role">Full-Stack / ML / DevOps Engineer</div>
+          <p>
+            Go, TypeScript, Python, React, FastAPI, Docker, gRPC. 
+            SWE at MidHub.id. Lab Assistant BINUS.
+          </p>
+          <div class="team-links">
+            <a href="https://github.com/winchfilbert" target="_blank" title="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/filbert-christian-winch/" target="_blank" title="LinkedIn">LI</a>
+          </div>
+        </div>
+
+        <!-- Zaki -->
+        <div class="team-card reveal">
+          <img src="../assets/zaki.jpeg" alt="Abdul Aziz Zaki Hidayat" class="team-avatar"
+               onerror="this.style.background='var(--primary)'; this.style.display='flex'; this.alt='ZH';" />
+          <h3>Abdul Aziz Zaki Hidayat</h3>
+          <div class="team-role">Frontend Developer / UI Engineer</div>
+          <p>
+            HTML, CSS, PHP, Flutter, Figma. IoT (ESP32, Blynk). 
+            UI/UX intern at Momentree. 3rd Place International UI/UX.
+          </p>
+          <div class="team-links">
+            <a href="https://github.com/ZakiHidayat" target="_blank" title="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/zakihidayat/" target="_blank" title="LinkedIn">LI</a>
+          </div>
+        </div>
+
+        <!-- Nadine -->
+        <div class="team-card reveal">
+          <img src="../assets/nadine.jpeg" alt="Nadine Syifa Swasana" class="team-avatar"
+               onerror="this.style.background='var(--primary)'; this.style.display='flex'; this.alt='NS';" />
+          <h3>Nadine Syifa Swasana</h3>
+          <div class="team-role">UI/UX Designer / Product Manager</div>
+          <p>
+            Figma, Prototyping, User Research, Design Thinking. 
+            Grand Final GEMASTIK XVIII 2025. Lab Assistant BINUS.
+          </p>
+          <div class="team-links">
+            <a href="https://github.com/nadineswasana" target="_blank" title="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/nadineswasana/" target="_blank" title="LinkedIn">LI</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ METRICS / TARGET DAMPAK ============ -->
+  <section id="dampak">
+    <div class="container">
+      <div class="reveal" style="text-align: center;">
+        <div class="section-label" style="justify-content: center;">Target Dampak</div>
+        <h2 class="section-title">Dari Masalah ke <span>Transformasi</span></h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          KORPUS tidak sekadar mengejar keanggotaan — tetapi memastikan partisipasi nyata 
+          dan transparansi ekonomi di tingkat desa.
+        </p>
+      </div>
+
+      <div class="metrics-grid">
+        <div class="metric-card reveal">
+          <div class="metric-icon">👥</div>
+          <div class="metric-before">Sekarang: ~2 juta dari 270 juta</div>
+          <div class="metric-value" data-target="30">0%</div>
+          <div class="metric-label">Target Partisipasi Populasi Desa</div>
+        </div>
+        <div class="metric-card reveal">
+          <div class="metric-icon">🏘️</div>
+          <div class="metric-before">Sekarang: Minimal digital</div>
+          <div class="metric-value" data-target="83000">0</div>
+          <div class="metric-label">Kopdes Terdigitalisasi</div>
+        </div>
+        <div class="metric-card reveal">
+          <div class="metric-icon">🔐</div>
+          <div class="metric-before">Sekarang: Manual & rentan</div>
+          <div class="metric-value">Auto</div>
+          <div class="metric-label">SHU Otomatis & Terenkripsi</div>
+        </div>
+        <div class="metric-card reveal">
+          <div class="metric-icon">⚡</div>
+          <div class="metric-before">Sekarang: Klerikal & birokratis</div>
+          <div class="metric-value">Instan</div>
+          <div class="metric-label">Onboarding via NIK + OTP WA</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VISION ============ -->
+  <section class="vision-section">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label" style="justify-content: center;">Visi Akhir</div>
+        <h2 class="section-title">Menuju <span>Indonesia Emas 2045</span></h2>
+
+        <div class="mp-stripe">
+          <div class="merah"></div>
+          <div class="putih"></div>
+        </div>
+
+        <blockquote class="vision-quote">
+          "Mendongkrak partisipasi masyarakat grassroot hingga menyentuh minimal 
+          <strong>30% dari total penduduk desa secara nasional</strong>, mengonversi 
+          <strong>83.000 Kopdes</strong> menjadi mesin penggerak ekonomi raksasa yang aktif. 
+          Melalui KORPUS, kita tidak sekadar mengejar angka keanggotaan, melainkan memastikan 
+          jutaan petani beralih menjadi <strong>aktor utama</strong> dalam panggung ketahanan 
+          pangan, memperkokoh kemandirian bangsa, dan mempercepat terwujudnya 
+          <strong>Visi Indonesia Emas 2045</strong>."
+        </blockquote>
+
+        <div class="mp-stripe">
+          <div class="merah"></div>
+          <div class="putih"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-left">
+        <div class="footer-brand">🌾 KORPUS</div>
+        <p>Hackathon SIMKopDes 2026 · Pilar 2: Keterlibatan Masyarakat dalam Berkoperasi</p>
+      </div>
+      <div class="footer-right">
+        <a href="https://github.com/ZakiHidayat/Hackathon_Kemenkop2026" target="_blank">GitHub</a>
+        <a href="https://simkopdes.go.id" target="_blank">SIMKopDes</a>
+        <a href="#">↑ Kembali ke Atas</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

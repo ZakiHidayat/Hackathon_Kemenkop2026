@@ -33,7 +33,7 @@
 | Info | Detail |
 |------|--------|
 | **Role** | Full-Stack Engineer / ML Engineer/ DevOps Engineer|
-| **Skills** |**Languages**: Go, TypeScript, Java, Python, C++ / **Frameworks**: React.js, tanstack, svelte,  Nest.js, FastAPI, Spring Boot / **Infrastructure & Data**: Docker, gRPC, PostgreSQL, Redis, VPS Deployment **IoT & AI**: Sensor Fusion (pH, Temperature), Real-Time Monitoring, Predictive Modeling |
+| **Skills** |**Languages**: Go, TypeScript, Java, Python, C++ / **Frameworks**: React.js, tanstack, svelte,  Nest.js, FastAPI, Flask, Spring Boot, Gin, Tensorflow, Pytorch / **Infrastructure & Data**: Docker, gRPC, PostgreSQL, Redis, VPS Deployment **IoT & AI**: Sensor Fusion (pH, Temperature), Real-Time Monitoring, Predictive Modeling |
 | **Experience** |Full-Stack Software Engineer at MidHub, Full-Time Information Systems Laboratory Assistant, BINUS University|
 
 #### 🚀 Highlighted Projects
