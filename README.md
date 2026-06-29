@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌾 NAMA TEAM (BLOM ADA WKWK! SAMA DI FOOTER JG HRS DI GANTI NAMA TEAMNYA)
+# 🌾 TIM FANS BOLU KETAN
 ### Hackathon SIMKopDes · Pilar 2: Keterlibatan Masyarakat dalam Berkoperasi
 
 [![Hackathon](https://img.shields.io/badge/Hackathon-SIMKopDes%202026-blue?style=for-the-badge)](https://kemenkop.go.id)
@@ -168,6 +168,6 @@ Petani dapat memantau metamorfosis panen mentah menjadi produk hilir bernilai ti
 
 <div align="center">
 
-*KORPUS · Hackathon SIMKopDes 2026 · Tim KORPUS*
+*KORPUS · Hackathon SIMKopDes 2026 · Tim Fans Bolu Ketan*
 
 </div>
