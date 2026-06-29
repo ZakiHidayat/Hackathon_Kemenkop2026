@@ -7,7 +7,6 @@
 [![Pilar](https://img.shields.io/badge/Pilar-2%20Keterlibatan%20Masyarakat-green?style=for-the-badge)](#-deskripsi-ide)
 [![Members](https://img.shields.io/badge/Team%20Members-3-orange?style=for-the-badge)](#-anggota-tim)
 
----
 
 *Orkestrator Keanggotaan Digital & Hilirisasi Komoditas untuk Koperasi Desa*
 
